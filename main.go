@@ -22,7 +22,7 @@ import (
 
 func main() {
 	destDir := flag.String("dest", "", "destination directory")
-	suite := flag.String("suite", "focal", "suite name")
+	suite := flag.String("suite", "jammy", "suite name")
 	pkg := flag.String("pkg", "", "source package name")
 	baseURL := flag.String("base-url", "https://packages.ubuntu.com", "base URL of package page")
 	archiveURLPrefix := flag.String("archive-url-prefix", "http://archive.ubuntu.com/", "archive URL prefix")
